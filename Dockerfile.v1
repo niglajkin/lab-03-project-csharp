@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+
+# 1. set working dir
+WORKDIR /app
+
+# 2. copy everything in one shot
+COPY . . 
+
+# 3. build the KeyValueStorage.csproj into /app/out
+RUN dotnet build KeyValueStorage.csproj -c Release -o out
+
+# 4. switch into the output folder and run the DLL
+WORKDIR /app/out
+ENTRYPOINT ["dotnet","KeyValueStorage.dll"]
+
+

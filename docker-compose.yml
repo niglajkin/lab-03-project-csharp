@@ -1,0 +1,26 @@
+﻿version: '3.8'
+
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+  kvstore:
+    build:
+      context: .
+      dockerfile: Dockerfile.v1
+    depends_on:
+      - redis
+    environment:
+      REDIS_CONNECTION: redis:6379
+    stdin_open: true     # ← top‐level, not under environment
+    tty: true            # ← top‐level, not under environment
+    ports:
+      - "5000:5000"      # if your app binds a port
+
+volumes:
+  redis-data:
+
