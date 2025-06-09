@@ -11,15 +11,15 @@ services:
   kvstore:
     build:
       context: .
-      dockerfile: Dockerfile.v1
+      dockerfile: Dockerfile.v2
     depends_on:
       - redis
     environment:
       REDIS_CONNECTION: redis:6379
-    stdin_open: true     # ← top‐level, not under environment
-    tty: true            # ← top‐level, not under environment
+    stdin_open: true     
+    tty: true            
     ports:
-      - "5000:5000"      # if your app binds a port
+      - "5000:5000"
 
 volumes:
   redis-data:
