@@ -2,10 +2,38 @@
 using Spectre.Console;
 using StackExchange.Redis;
 
+
+//cool changes aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+//cool changes aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+//cool changes aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+//cool changes aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+//cool changes aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+//cool changes ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+//cool changes ccccccccccccccccccccccccccccccccccccccccccccccccccc
+//cool changes ccccccccccccccccccccccccccccccccccccccccccccccccc
+//cool changes cccccccccccccccccccccccccccccccccccccc
+//cool changes cccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
+//cool changes ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+//cool changes ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+//cool changes ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+//cool changes ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+//cool changes ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+
 class Program
 {
     static void Main(string[] args)
     {
+
+        //cool changes oooooooooooooooooooooooooo
+        //cool changes oooooooooooooooo
+        //cool changes ooooooooooooooooooooooooooooooooooooooooooooooooooooo
+        //cool changes ooooooooooooooooooooooo
+        //cool changes oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
         var redisConn = Environment.GetEnvironmentVariable("REDIS_CONNECTION") ?? "localhost:6379";
         IConnectionMultiplexer mux;
         try
@@ -102,6 +130,28 @@ class Program
                     AnsiConsole.MarkupLine($"[green]Screen cleared at {DateTime.Now:T}[/]");
                     break;
             }
+
         }
     }
 }
+
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+//cool changes iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+
+
+//cool changes qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+//cool changes qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+//cool changes qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+//cool changes qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+//cool changes qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
